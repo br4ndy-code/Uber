@@ -437,5 +437,62 @@ nav {
       .footer_mobile a:last-child {
         margin-right: 0;
         margin-top: 5px; } }
+@media (max-width: 991px) {
+  .title {
+    font-size: 30px; }
+
+  .menu_item {
+    padding-right: 12px; }
+  .menu_link {
+    font-size: 10px; }
+
+  .subheader_logo img {
+    width: 100%; }
+  .subheader_official {
+    font-size: 11px; }
+  .subheader_phone {
+    font-size: 18px; }
+  .subheader_btn {
+    width: 100%;
+    margin-top: 21px;
+    height: 40px; }
+
+  .promo_header {
+    font-size: 40px; }
+  .promo_subheader {
+    font-size: 30px; }
+
+  .reasons_block {
+    align-items: center;
+    flex-direction: column; }
+  .reasons_descr {
+    width: 300px;
+    margin-top: 20px; }
+
+  .choice_img {
+    width: 100%; }
+
+  .world {
+    min-height: 600px; }
+
+  .footer_wrapper {
+    flex-direction: column;
+    align-items: center; }
+  .footer_wrapper > div {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    .footer_wrapper > div:nth-child(3) {
+      display: flex;
+      justify-content: center; }
+  .footer_links {
+    margin-top: 18px; }
+  .footer_social {
+    width: 185px; }
+  .footer_mobile {
+    width: 100%;
+    margin-top: 18px; }
+    .footer_mobile a:last-child {
+      margin-top: 0; } }
 
 /*# sourceMappingURL=style.css.map */
