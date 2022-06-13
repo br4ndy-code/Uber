@@ -558,6 +558,133 @@ nav {
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
-    text-align: center; } }
+    text-align: center;
+    margin-top: 10px; }
+  .subheader_btn {
+    width: 200px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px; }
+
+  .promo_header {
+    line-height: 45px; } }
+@media (max-width: 575px) {
+  nav {
+    height: 30px; }
+
+  header {
+    height: 30px; }
+
+  .subheader {
+    height: 60px;
+    top: 20px; }
+    .subheader_official {
+      display: none; }
+    .subheader_logo {
+      margin-top: 18px; }
+    .subheader_phone {
+      font-size: 12px;
+      font-weight: 400;
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 11px; }
+    .subheader_btn {
+      width: 110px;
+      height: 22px;
+      font-size: 10px;
+      margin-top: 4px; }
+
+  .promo {
+    min-height: 400px;
+    padding: 93px 0 35px 0; }
+    .promo_descr {
+      display: none; }
+    .promo_header {
+      font-size: 30px;
+      line-height: 35px; }
+    .promo_subheader {
+      font-size: 20px;
+      line-height: 30px;
+      margin-top: 33px;
+      padding: 0 10px; }
+    .promo_btn {
+      width: 210px;
+      height: 50px;
+      margin-top: 72px; }
+
+  .menu {
+    width: 85%; }
+
+  .reasons {
+    padding: 22px 0 36px 0; }
+    .reasons_block {
+      margin-top: 26px; }
+    .reasons_round {
+      width: 100px;
+      height: 100px;
+      margin-right: 0; }
+    .reasons_descr {
+      width: 100%;
+      margin-top: 27px; }
+    .reasons_subtitle {
+      font-size: 16px; }
+
+  .title {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 16px; }
+
+  .mobile {
+    padding: 25px 0 45px 0; }
+    .mobile_item {
+      width: 290px;
+      height: 254px; }
+      .mobile_item_subtitle {
+        font-size: 18px; }
+
+  .subtitle {
+    font-size: 14px;
+    margin-top: 11px; }
+
+  .choice {
+    min-height: 390px;
+    background-image: none;
+    background-color: #070716;
+    padding: 25px 0 33px 0; }
+    .choice_subtext {
+      color: #fff;
+      margin-top: 23px; }
+
+  .require {
+    padding: 25px 0 26px 0; }
+    .require_title {
+      font-size: 16px;
+      margin-top: 10px; }
+    .require_list li {
+      font-size: 14px; }
+    .require_block {
+      margin: 12px 0; }
+
+  .world {
+    min-height: 360px; }
+    .world_link {
+      font-size: 15px;
+      width: 100%; }
+
+  .footer {
+    padding: 25px 18px 20px 18px; }
+    .footer_divider {
+      width: 253px; }
+    .footer_links_main {
+      padding: 0; }
+    .footer_links_sub {
+      flex-wrap: wrap;
+      text-align: center;
+      justify-content: center; }
+      .footer_links_sub a {
+        margin: 5px 5px 0 0; }
+    .footer_mobile a:last-child {
+      margin-top: 5px; } }
 
 /*# sourceMappingURL=style.css.map */
